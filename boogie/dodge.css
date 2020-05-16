@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://ak.picdn.net/shutterstock/videos/13327712/thumb/1.jpg');
+    background-size: auto 150vh; 
+   font-family: verdana;
+    height: 120vh;
+}
+ 
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+  
+.menu ul{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+   
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+  
+  display: block;
+  padding: 5px 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  color: red;
+  text-align: center;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 5px blue;
+}
+
+.site-subtitle {
+  color: #F0FFFF;
+  text-align: center;
+ font-style: italic;
+  font-size: 1.2em;
+}
+
+.site-subtitle2 {
+  color: #F0FFFF;
+  text-align: center;
+ font-style: italic;
+  font-size: 1.2em;
+}
